@@ -38,10 +38,3 @@ The purpose of this project is to demonstrate various machine learning technique
 
 - **[7_KMeans.ipynb](./7_KMeans.ipynb):**  
   Applies K-Means clustering (an unsupervised learning method) to group customers based on their age and salary. A scatter plot is generated to visualize the clusters.
-
-## How to Run
-
-1. **Clone the Repository**
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
