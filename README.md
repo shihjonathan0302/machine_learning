@@ -1,4 +1,4 @@
-# Machine Learning Models on Customer Purchase Data
+# Machine Learning Models 
 
 This repository contains seven separate Jupyter Notebooks, each demonstrating a different machine learning model using the same synthetic dataset.
 
