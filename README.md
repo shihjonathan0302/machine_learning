@@ -19,9 +19,9 @@ The purpose of this project is to demonstrate various machine learning technique
 ## Notebooks
 
 - **[Logistic_Regression](./1_Logistic_Regression.ipynb):**  
-- **Type**: Supervised (Classification)
+-- **Type**: Supervised (Classification)
 
-- **Description**: Logistic Regression is used to predict binary outcomes. It applies a logistic (sigmoid) function to estimate the probability that a data point belongs to a certain class (e.g., purchased or not). This notebook trains a logistic regression model on the dataset and reports performance metrics such as accuracy, confusion matrix, classification report, and model coefficients.
+-- **Description**: Logistic Regression is used to predict binary outcomes. It applies a logistic (sigmoid) function to estimate the probability that a data point belongs to a certain class (e.g., purchased or not). This notebook trains a logistic regression model on the dataset and reports performance metrics such as accuracy, confusion matrix, classification report, and model coefficients.
 
 - **[2_Linear_Regression.ipynb](./2_Linear_Regression.ipynb):**  
   Applies Linear Regression to predict the target variable as a continuous value. (Note: Here 'purchased' is treated numerically for demonstration purposes.) Evaluation is based on mean squared error (MSE).
