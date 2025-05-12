@@ -18,24 +18,30 @@ The purpose of this project is to demonstrate various machine learning technique
 
 ## Notebooks
 
-- **[1_Logistic_Regression.ipynb](./1_Logistic_Regression.ipynb)**  
+- **[Logistic_Regression](./1_Logistic_Regression.ipynb)**  
   - **Type:** Supervised (Classification)  
   - **Description:** Logistic Regression is used to predict binary outcomes. It applies a logistic (sigmoid) function to estimate the probability that a data point belongs to a certain class (e.g., purchased or not). This notebook trains a logistic regression model on the dataset and reports performance metrics such as accuracy, confusion matrix, classification report, and model coefficients.
 
-- **[2_Linear_Regression.ipynb](./2_Linear_Regression.ipynb):**  
-  Applies Linear Regression to predict the target variable as a continuous value. (Note: Here 'purchased' is treated numerically for demonstration purposes.) Evaluation is based on mean squared error (MSE).
+- **[Linear_Regression](./2_Linear_Regression.ipynb)**  
+  - **Type:** Supervised (Regression)  
+  - **Description:** Linear Regression models the relationship between one or more input features and a continuous target variable. Although the target in this dataset is binary, this notebook demonstrates how linear regression would approximate numeric predictions and evaluates performance using mean squared error (MSE).
 
-- **[3_Decision_Tree.ipynb](./3_Decision_Tree.ipynb):**  
-  Demonstrates how to use a Decision Tree Classifier to predict purchase decisions. It provides accuracy and other performance metrics.
+- **[Decision_Tree](./3_Decision_Tree.ipynb)**  
+  - **Type:** Supervised (Classification)  
+  - **Description:** Decision Trees classify data by asking a sequence of binary questions. The algorithm recursively splits the dataset based on feature values to build a tree structure. This model is easy to interpret and visualize. The notebook demonstrates purchase prediction and reports accuracy.
 
-- **[4_Random_Forest.ipynb](./4_Random_Forest.ipynb):**  
-  Uses the Random Forest Classifier (an ensemble of Decision Trees) to improve prediction performance and reduce overfitting.
+- **[Random_Forest](./4_Random_Forest.ipynb)**  
+  - **Type:** Supervised (Classification)  
+  - **Description:** Random Forest is an ensemble model that builds multiple decision trees on random subsets of the data and averages their predictions. It improves accuracy and reduces overfitting. This notebook applies a Random Forest Classifier to the dataset and reports performance.
 
-- **[5_SVM.ipynb](./5_SVM.ipynb):**  
-  Implements a Support Vector Machine (SVM) for classification. The notebook shows how SVM finds the best separating hyperplane and outputs the accuracy score.
+- **[SVM](./5_SVM.ipynb)**  
+  - **Type:** Supervised (Classification)  
+  - **Description:** Support Vector Machine (SVM) finds the optimal hyperplane that separates different classes with the maximum margin. This notebook demonstrates how SVM can be used for binary classification of purchase behavior and evaluates the results.
 
-- **[6_KNN.ipynb](./6_KNN.ipynb):**  
-  Uses the K-Nearest Neighbors algorithm to predict whether a customer will purchase, based on the majority vote among the nearest neighbors. It includes accuracy evaluation.
+- **[NN](./6_KNN.ipynb)**  
+  - **Type:** Supervised (Classification)  
+  - **Description:** K-Nearest Neighbors (KNN) is a non-parametric algorithm that classifies a data point based on the majority label of its K nearest neighbors in the feature space. This notebook uses KNN to predict purchase decisions and reports accuracy.
 
-- **[7_KMeans.ipynb](./7_KMeans.ipynb):**  
-  Applies K-Means clustering (an unsupervised learning method) to group customers based on their age and salary. A scatter plot is generated to visualize the clusters.
+- **[KMeans](./7_KMeans.ipynb)**  
+  - **Type:** Unsupervised (Clustering)  
+  - **Description:** K-Means clustering partitions data into K groups by minimizing intra-cluster variance. This notebook applies K-Means to group customers based on their age and salary, and visualizes the results using a scatter plot with cluster assignments.
